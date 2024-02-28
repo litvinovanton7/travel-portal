@@ -1,0 +1,40 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header__top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2785C;
+    opacity: 70%;
+    padding: 35px 0 34px 0;
+}
+
+.menu__list {
+    display: flex;
+    gap: 42px;
+}
+
+.menu__link {
+    font-size: 16px;
+    color: #fff;
+}
+
+.header__login {
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #0D606F;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+}
