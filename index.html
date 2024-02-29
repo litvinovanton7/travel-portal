@@ -6,11 +6,23 @@
         <title>Document</title>
         <link rel="stylesheet" href="src/css/style.css" />
         <link rel="stylesheet" href="src/css/normalize.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <header class="header">
             <div class="container">
-                <div class="header__top">
+                <div class="header__menu">
                     <a class="header_logo" href="#">
                         <img
                             class="logo__img"
@@ -40,17 +52,22 @@
                     </nav>
                     <button class="header__login">Login</button>
                 </div>
-                <div class="header__content">
-                    <h1 class="header__title">
+            </div>
+        </header>
+        <section class="preview">
+            <div class="container">
+                <div class="preview__wrapper">
+                    <h1 class="preview__title">
                         Explore the beauty of the World
                     </h1>
-                    <p class="header__descr">
+                    <p class="preview__descr">
                         Receive personalized recommendations for countries,
                         hotels, activities and more
                     </p>
+                    <input class="start" type="text" />
                 </div>
             </div>
-        </header>
+        </section>
         <script src="src/js/main.js"></script>
     </body>
 </html>

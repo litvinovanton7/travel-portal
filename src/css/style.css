@@ -3,33 +3,37 @@ li {
 }
 
 a {
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 500;
     text-decoration: none;
 }
 
+.title {
+}
+
 .container {
-    max-width: 1440px;
+    max-width: 1460px;
     margin: 0 auto;
 }
 
-/* .header {
-    background-image: url("./images/header_bg.png");
-    background-position: center; 
-    background-repeat: no-repeat; 
+.header {
+    background-image: url("../images/header_bg.png");
     background-size: cover;
-} */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(242, 120, blue, alpha);
+    padding: 24px 0;
+}
 
-.header__top {
-    width: 100%;
+.header__menu {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background-color: #F2785C;
-    opacity: 70%;
-    padding: 35px 0 34px 0;
 }
 
 .menu__list {
     display: flex;
+    align-items: center;
     gap: 42px;
 }
 
@@ -39,10 +43,31 @@ a {
 }
 
 .header__login {
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 500;
     border-radius: 10px;
     border: none;
     font-size: 16px;
-    background-color: #0D606F;
+    background-color: #0d606f;
     color: #fff;
     padding: 10px 30px 10px 30px;
+}
+
+.preview {
+    background-image: url("../images/header_bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.preview__wrapper {
+    padding: 32px;
+    width: 892px;
+}
+
+.preview__title {
+    color: #fff;
+    font-size: 80px;
+    font-family: "Aleo", serif;
+    font-weight: bold;
 }
