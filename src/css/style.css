@@ -153,3 +153,30 @@ button {
     font-size: 20px;
     padding-top: 15px;
 }
+
+.destanation {
+}
+
+.destanation__title {
+}
+
+.slider__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.slider__item {
+    display: flex;
+}
+
+.slider_img {
+    border-radius: 16px;
+}
+
+/* .slider__descr-img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+} */
