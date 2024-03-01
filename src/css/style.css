@@ -34,7 +34,7 @@ button {
 }
 
 .header {
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/backgrounds/header_bg.png");
     background-color: #f2785c;
     opacity: 70%;
     background-size: cover;
@@ -68,7 +68,7 @@ button {
 }
 
 .preview {
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/backgrounds/header_bg.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
