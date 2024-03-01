@@ -30,12 +30,12 @@ button {
 
 .header {
     background-image: url("../images/header_bg.png");
+    background-color: #f2785c;
+    opacity: 70%;
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
     padding: 24px 0;
-    background-color: #f2785c;
-    opacity: 70%;
 }
 
 .header__menu {
@@ -70,7 +70,7 @@ button {
 }
 
 .preview__wrapper {
-    padding: 32px 0 ;
+    padding: 32px 0;
     width: 892px;
 }
 
@@ -91,6 +91,8 @@ button {
 }
 
 .preview__wrapper-input {
+    display: flex;
+    align-items: center;
     position: relative;
     margin-bottom: 200px;
 }
@@ -112,8 +114,9 @@ button {
 }
 
 .start__plan {
-    width: 228px;
-    height: 59px;
     position: absolute;
     right: 0;
+    margin: 18px;
+    width: 228px;
+    height: 59px;
 }
