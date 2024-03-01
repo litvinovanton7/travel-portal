@@ -18,7 +18,12 @@ button {
     color: #fff;
 }
 
-.title {
+.section__title {
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: medium;
+    color: #f2785c;
+    font-size: 40px;
+    text-align: center;
 }
 
 .container {
@@ -94,7 +99,7 @@ button {
     display: flex;
     align-items: center;
     position: relative;
-    margin-bottom: 200px;
+    margin-bottom: 221px;
 }
 
 .start {
@@ -119,4 +124,32 @@ button {
     margin: 18px;
     width: 228px;
     height: 59px;
+}
+
+.step {
+    margin-top: 80px;
+    margin-bottom: 97px;
+}
+
+.step__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item__wrapper {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.step__img {
+    background-color: #f2785c;
+    border-radius: 16px;
+    padding: 28px;
+}
+
+.step__item-descr {
+    color: #0d606f;
+    font-size: 20px;
+    padding-top: 15px;
 }
