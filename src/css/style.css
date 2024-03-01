@@ -8,6 +8,16 @@ a {
     text-decoration: none;
 }
 
+button {
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: medium;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: #0D606F;
+    color: #fff;
+}
+
 .title {
 }
 
@@ -24,7 +34,7 @@ a {
     background-position: center top;
     background-repeat: no-repeat;
     padding: 24px 0;
-    background-color: #F2785C;
+    background-color: #f2785c;
     opacity: 70%;
 }
 
@@ -48,11 +58,7 @@ a {
 .header__login {
     font-family: "Red Hat Text", sans-serif;
     font-weight: 500;
-    border-radius: 10px;
-    border: none;
-    font-size: 16px;
-    background-color: #0d606f;
-    color: #fff;
+ 
     padding: 10px 30px 10px 30px;
 }
 
@@ -73,4 +79,37 @@ a {
     font-size: 80px;
     font-family: "Aleo", serif;
     font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.preview__descr {
+    margin-bottom: 46px;
+    font-family: "Aleo", serif;
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+}
+
+.preview__input {
+}
+
+.start {
+    width: 892px;
+    height: 95px;
+    opacity: 70%;
+    border-radius: 16px;
+    border: none; 
+}
+
+.start::placeholder {
+    color: #F2785C;
+    font-size: 24px;
+    font-family: "Aleo", serif;
+    font-style: italic;
+    padding: 32px 0 41px 41px;
+}
+
+.start__plan {
+    width: 228px;
+    height: 59px;
 }
