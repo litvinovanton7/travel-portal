@@ -14,7 +14,7 @@ button {
     border: none;
     border-radius: 10px;
     font-size: 16px;
-    background-color: #0D606F;
+    background-color: #0d606f;
     color: #fff;
 }
 
@@ -58,7 +58,7 @@ button {
 .header__login {
     font-family: "Red Hat Text", sans-serif;
     font-weight: 500;
- 
+
     padding: 10px 30px 10px 30px;
 }
 
@@ -70,7 +70,7 @@ button {
 }
 
 .preview__wrapper {
-    padding: 32px;
+    padding: 32px 0 ;
     width: 892px;
 }
 
@@ -90,7 +90,9 @@ button {
     color: #fff;
 }
 
-.preview__input {
+.preview__wrapper-input {
+    position: relative;
+    margin-bottom: 200px;
 }
 
 .start {
@@ -98,11 +100,11 @@ button {
     height: 95px;
     opacity: 70%;
     border-radius: 16px;
-    border: none; 
+    border: none;
 }
 
 .start::placeholder {
-    color: #F2785C;
+    color: #f2785c;
     font-size: 24px;
     font-family: "Aleo", serif;
     font-style: italic;
@@ -112,4 +114,6 @@ button {
 .start__plan {
     width: 228px;
     height: 59px;
+    position: absolute;
+    right: 0;
 }
