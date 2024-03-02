@@ -154,12 +154,6 @@ button {
     padding-top: 15px;
 }
 
-.destanation {
-}
-
-.destanation__title {
-}
-
 .slider__wrapper {
     display: flex;
     justify-content: center;
@@ -168,15 +162,23 @@ button {
 }
 
 .slider__item {
+    position: relative;
     display: flex;
+    padding-left: 50px;
 }
 
 .slider_img {
     border-radius: 16px;
 }
 
-/* .slider__descr-img {
+.slider__descr-img {
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
     position: absolute;
     bottom: 0;
     left: 0;
-} */
+    color: #fff;
+    padding-bottom: 40px;
+    padding-left: 15px;
+}
