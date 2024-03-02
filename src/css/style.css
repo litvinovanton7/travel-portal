@@ -215,3 +215,12 @@ button {
     height: 59px;
     padding: 13.5px 31px;
 }
+
+.stories__content-wrapper {
+    background-image: url("../images/backgrounds/stories_bg.png");
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 70%;
+}
