@@ -172,7 +172,7 @@ button {
 }
 
 .slider__descr-img {
-    font-family: 'Red Hat Text', sans-serif;
+    font-family: "Red Hat Text", sans-serif;
     font-weight: 500;
     font-size: 32px;
     position: absolute;
@@ -182,3 +182,36 @@ button {
     padding-bottom: 40px;
     padding-left: 15px;
 }
+
+.slider__switch-wrapper {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 10px;
+}
+
+.switch__slide {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: #F2785C;
+    opacity: 50%;
+}
+
+.switch__slide:active {
+    background-color: #F2785C;
+}
+
+.destanation__btn-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;margin-bottom: 80px;
+}
+
+.destanation__btn {
+    width: 228px;
+    height: 59px;
+    padding: 13.5px 31px;
+}
+
