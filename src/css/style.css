@@ -180,7 +180,7 @@ button {
     left: 0;
     color: #fff;
     padding-bottom: 40px;
-    padding-left: 15px;
+    padding-left: 60px;
 }
 
 .slider__switch-wrapper {
@@ -195,18 +195,19 @@ button {
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    background-color: #F2785C;
+    background-color: #f2785c;
     opacity: 50%;
 }
 
 .switch__slide:active {
-    background-color: #F2785C;
+    background-color: #f2785c;
 }
 
 .destanation__btn-wrapper {
     display: flex;
     justify-content: center;
-    margin-top: 40px;margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 .destanation__btn {
@@ -214,4 +215,3 @@ button {
     height: 59px;
     padding: 13.5px 31px;
 }
-
