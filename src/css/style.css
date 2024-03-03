@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 li {
     list-style: none;
 }
@@ -33,10 +37,15 @@ button {
     padding-right: 120px;
 }
 
-.header {
+.section__header {
     background-image: url("../images/backgrounds/header_bg.png");
-    background-color: #f2785c;
-    opacity: 70%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.header {
+    background-color: rgba(242, 120, 92, 0.7);
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
@@ -119,7 +128,7 @@ button {
 }
 
 .start__plan {
-    font-family: 'Red Hat Text', sans-serif;
+    font-family: "Red Hat Text", sans-serif;
     font-size: 24px;
     font-weight: 500;
     position: absolute;
@@ -217,25 +226,34 @@ button {
     width: 228px;
     height: 59px;
     padding: 13.5px 31px;
-    font-family: 'Red Hat Text', sans-serif;
+    font-family: "Red Hat Text", sans-serif;
     font-size: 24px;
     font-weight: 500;
 }
 
-.stories__content-wrapper {
-    padding-top: 40px;
+.stories {
     background-image: url("../images/backgrounds/stories_bg.png");
-    background-color: #fff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 70%;
+}
+
+.stories__content-wrapper {
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.stories__content-item {
 }
 
 .stories__content-item {
     display: flex;
     gap: 0 40px;
     margin-bottom: 30px;
+}
+
+.stories__img {
+    border-radius: 16px;
 }
 
 .stories__content-text {
@@ -272,7 +290,36 @@ button {
     padding: 10px 32px;
     color: #fff;
     font-size: 24px;
-    font-family: 'Red Hat Text', sans-serif;
+    font-family: "Red Hat Text", sans-serif;
     font-weight: 500;
-    margin-bottom: 40px;
+    margin-bottom: 41px;
+}
+
+.footer {
+    padding-top: 41px;
+    background-image: url("../images/backgrounds/stories_bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.footer__content {
+    display: flex;
+    align-items: center;
+    align-content: flex-start;
+    flex-direction: row-reverse;
+    gap: 0 328px;
+}
+
+.footer__social-link {
+    display: flex;
+    gap: 0 20px;
+}
+
+.footer__text {
+    color: #fff;
+    font-size: 16px;
+    font-family: "Red Hat Text", sans-serif;
+    font-weight: 500;
+    padding-bottom: 19px;
 }
