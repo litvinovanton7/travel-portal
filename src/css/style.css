@@ -69,6 +69,34 @@ button {
     color: #fff;
 }
 
+.hamburger__menu {
+    display: none;
+}
+
+/* .close {
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    opacity: 0.3;
+}
+
+.close:hover {
+    opacity: 1;
+}
+
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+} */
+
+.bar {
+    display: block;
+    background-color: #fff;
+    width: 26px;
+    height: 2.67px;
+}
+
 .header__login {
     font-family: "Red Hat Text", sans-serif;
     font-weight: 500;
@@ -328,12 +356,51 @@ button {
         padding: 0 16px;
     }
 
+    .header {
+        background: none;
+    }
+
     .logo {
         content: url("../images/mobile_logo.svg");
     }
 
     .header__menu {
-        display: none;
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #f2785c;
+        width: 165px;
+        height: 250px;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .header__menu.active {
+        left: 0;
+    }
+
+    .menu__item {
+        margin: 2.5rem 0;
+    }
+
+    .hamburger__menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger__menu.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger__menu.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger__menu.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
     }
 
     .header__login {
