@@ -73,28 +73,13 @@ button {
     display: none;
 }
 
-/* .close {
-    position: absolute;
-    left: 0;
-    width: 30px;
-    height: 30px;
-    opacity: 0.3;
-}
-
-.close:hover {
-    opacity: 1;
-}
-
-.close:before, .close:after {
-    position: absolute;
-    left: 15px;
-} */
-
 .bar {
     display: block;
     background-color: #fff;
     width: 26px;
     height: 2.67px;
+    margin-top: 4px;
+    border-radius: 10px;
 }
 
 .header__login {
@@ -373,9 +358,15 @@ button {
         width: 165px;
         height: 250px;
         border-radius: 10px;
-        text-align: center;
-        transition: 0.3s;
+        transition: 0.7s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    .menu__list {
+        max-width: 106px;
+        max-height: 176px;
+        display: flex;
+        flex-direction: column;
     }
 
     .header__menu.active {
@@ -391,7 +382,7 @@ button {
         cursor: pointer;
     }
 
-    .hamburger__menu.active .bar:nth-child(2) {
+    /* .hamburger__menu.active .bar:nth-child(2) {
         opacity: 0;
     }
 
@@ -401,7 +392,7 @@ button {
 
     .hamburger__menu.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-    }
+    } */
 
     .header__login {
         display: none;
@@ -411,10 +402,12 @@ button {
         display: none;
     }
 
+    .preview__wrapper-input {
+    }
+    
     .start {
         width: 360px;
         height: 48px;
-        display: flex;
     }
 
     .start__plan {
