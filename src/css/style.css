@@ -22,7 +22,7 @@ button {
     color: #fff;
 }
 
-.section__title {
+.section__title { /* one style for all titles in sections */
     font-family: "Red Hat Text", sans-serif;
     font-weight: medium;
     color: #f2785c;
@@ -37,7 +37,7 @@ button {
     padding-right: 120px;
 }
 
-.section__header {
+.section__header { /* section to wrap header and preview section to add background-image for both sections */
     background-image: url("../images/backgrounds/header_bg.png");
     background-size: cover;
     background-position: top;
@@ -69,11 +69,11 @@ button {
     color: #fff;
 }
 
-.hamburger__menu {
+.hamburger__menu { /* it uses in adaptive design*/
     display: none;
 }
 
-.bar {
+.bar { /* a piece of hamburger menu*/
     display: block;
     background-color: #fff;
     width: 26px;
@@ -87,8 +87,6 @@ button {
     font-weight: 500;
     padding: 10px 30px 10px 30px;
 }
-
-
 
 .preview__content-wrapper {
     padding: 2px 0;
@@ -111,6 +109,8 @@ button {
     color: #fff;
 }
 
+/* input section in preview */
+
 .preview__wrapper-input {
     display: flex;
     align-items: center;
@@ -118,7 +118,7 @@ button {
     margin-bottom: 221px;
 }
 
-.start {
+.start { /* class of input */
     width: 892px;
     height: 95px;
     opacity: 70%;
@@ -134,7 +134,7 @@ button {
     padding: 32px 0 41px 41px;
 }
 
-.start__plan {
+.start__plan { /* class of button in input */
     font-family: "Red Hat Text", sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -173,6 +173,7 @@ button {
     padding-top: 15px;
 }
 
+/* slider in destanation section*/
 .slider__wrapper {
     display: flex;
     justify-content: center;
@@ -406,7 +407,7 @@ button {
         margin-bottom: 61px;
     }
     
-    .start {
+    .start { /* input in preview */
         width: 360px;
         height: 48px;
     }
@@ -415,7 +416,7 @@ button {
         font-size: 14px;
     }
 
-    .start__plan {
+    .start__plan { /* button in preview */
         width: 92px;
         height: 30px;
         font-size: 11px;
