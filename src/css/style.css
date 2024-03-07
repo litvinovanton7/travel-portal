@@ -85,18 +85,12 @@ button {
 .header__login {
     font-family: "Red Hat Text", sans-serif;
     font-weight: 500;
-
     padding: 10px 30px 10px 30px;
 }
 
-.preview {
-    background-image: url("../images/backgrounds/header_bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-.preview__wrapper {
+
+.preview__content-wrapper {
     padding: 2px 0;
     width: 892px;
 }
@@ -341,6 +335,11 @@ button {
         padding: 0 16px;
     }
 
+    .section__title {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
     .header {
         background: none;
     }
@@ -403,6 +402,8 @@ button {
     }
 
     .preview__wrapper-input {
+        margin-top: 67px;
+        margin-bottom: 61px;
     }
     
     .start {
@@ -410,8 +411,26 @@ button {
         height: 48px;
     }
 
+    .start::placeholder {
+        font-size: 14px;
+    }
+
     .start__plan {
         width: 92px;
         height: 30px;
+        font-size: 11px;
+    }
+
+    .step {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .step__wrapper {
+    }
+
+    .step__img {
+        width: 70px;
+        height: 70px;
     }
 }
