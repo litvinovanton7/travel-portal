@@ -112,10 +112,12 @@ button {
 /* input section in preview */
 
 .preview__wrapper-input {
-    display: flex;
+    /* display: flex;
     align-items: center;
-    position: relative;
+    position: relative; */
     margin-bottom: 221px;
+    position: relative;
+    display: inline-block;
 }
 
 .start { /* class of input */
