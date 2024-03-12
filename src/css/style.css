@@ -112,12 +112,11 @@ button {
 /* input section in preview */
 
 .preview__wrapper-input {
-    /* display: flex;
+    display: flex;
     align-items: center;
-    position: relative; */
     margin-bottom: 221px;
     position: relative;
-    display: inline-block;
+
 }
 
 .start { /* class of input */
@@ -141,20 +140,19 @@ button {
     font-size: 24px;
     font-weight: 500;
     position: absolute;
-    right: 0;
-    margin: 18px;
+    right: 18px;
     width: 228px;
     height: 59px;
 }
 
-.step {
+.step { 
     margin-top: 80px;
     margin-bottom: 97px;
 }
 
 .step__wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -284,7 +282,7 @@ button {
     color: #0d606f;
     font-weight: bold;
     text-decoration: underline;
-}
+} 
 
 .stories__btn-wrapper {
     display: flex;
@@ -381,20 +379,7 @@ button {
 
     .hamburger__menu {
         display: block;
-        cursor: pointer;
     }
-
-    /* .hamburger__menu.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger__menu.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger__menu.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    } */
 
     .header__login {
         display: none;
@@ -422,6 +407,7 @@ button {
         width: 92px;
         height: 30px;
         font-size: 11px;
+        left: 260px;
     }
 
     .step {
@@ -429,11 +415,8 @@ button {
         margin-bottom: 20px;
     }
 
-    .step__wrapper {
-    }
-
-    .step__img {
-        width: 70px;
-        height: 70px;
+    .step__item-descr {
+        align-items: center;
+        font-size: 10px;
     }
 }
