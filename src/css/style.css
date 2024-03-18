@@ -243,7 +243,7 @@ button {
     font-weight: 500;
 }
 
-.stories {
+.background__footer-stories {
     background-image: url("../images/backgrounds/stories_bg.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -306,10 +306,6 @@ button {
 
 .footer {
     padding-top: 41px;
-    background-image: url("../images/backgrounds/stories_bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center bottom;
 }
 
 .footer__content {
