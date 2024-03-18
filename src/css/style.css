@@ -428,7 +428,53 @@ button {
         font-size: 10px;
     }
 
+    .slider_img {
+        height: 210px;
+    }
+
     .slider__item {
         right: 0;
+    }
+
+    .destanation__btn-wrapper {
+        margin-bottom: 20px;
+    }
+
+    .stories__img {
+        width: 155px;
+        height: 130px;
+    }
+
+    .stories__content-text {
+        width: 192px;
+        height: 102px;
+        margin-bottom: 15px;
+        text-overflow: ellipsis;
+    }
+
+    .stories__title-descr {
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+
+    .stories__descr {
+        font-size: 9px;
+    }
+
+    .stories__btn {
+        padding-top: 10px;
+    }
+
+    .btn__section {
+        font-family: "Red Hat Text", sans-serif;
+        font-weight: medium;
+        border: none;
+        border-radius: 10px;
+        font-size: 11px;
+        background-color: #0d606f;
+        color: #fff;
+        width: 92px;
+        height: 30px;
+        padding: 7.5px 10px;
     }
 }
