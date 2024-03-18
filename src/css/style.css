@@ -187,6 +187,10 @@ button {
     padding-left: 50px;
 }
 
+.picture-wrapper {
+
+}
+
 .slider_img {
     border-radius: 16px;
 }
@@ -423,7 +427,7 @@ button {
         align-items: center;
         font-size: 10px;
     }
-    
+
     .slider__item {
         right: 0;
     }
