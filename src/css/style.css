@@ -415,8 +415,18 @@ button {
         margin-bottom: 20px;
     }
 
+    .step__img  {
+        padding: 19px;
+    }
+
     .step__item-descr {
         align-items: center;
         font-size: 10px;
+    }
+
+
+
+    .slider__item {
+        right: 0;
     }
 }
