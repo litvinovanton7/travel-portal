@@ -136,33 +136,72 @@
             </div>
             <div class="slider__wrapper">
                 <div class="slider__item">
-                    <img
+                    <!-- <img
                         class="slider_img"
-                        srcset="src/images/slider/390px/spain390.png 360w"
-                        sizes="(max-width: 390px)"
+                        sizes="(max-width: 390px) 360px, (max-width: 1440px) 800px"
+                        srcset="
+                        src/images/slider/390px/spain390.png 360w
+                        src/images/slider/spain.png 800w
+                        "
                         src="src/images/slider/spain.png"
                         alt=""
-                    />
+                    /> -->
+                    <picture>
+                        <source
+                            srcset="
+                        src/images/slider/390px/spain390.png 360w
+                        src/images/slider/spain.png 800w
+                        "
+                            sizes="(max-width: 390px) 360px, (max-width: 1440px) 800px"
+                        />
+                        <img class="slider__item" src="src/images/slider/spain.png" alt="" />
+                    </picture>
                     <div class="slider__descr-img">Spain</div>
                 </div>
-                <div class="slider__item">
-                    <img
+                <div>
+                    <!-- <img
                         class="slider_img"
-                        srcset="src/images/slider/390px/spain390.png 360w"
-                        sizes="(max-width: 390px)"
+                        sizes="(max-width: 390px) 360px, (max-width: 1440px) 800px"
+                        srcset="
+                        src/images/slider/390px/japan390.png 360w
+                        src/images/slider/japan.png 800w
+                        "
                         src="src/images/slider/japan.png"
                         alt=""
-                    />
+                    /> -->
+                    <picture>
+                        <source
+                            srcset="
+                        src/images/slider/390px/japan390.png 360w
+                        src/images/slider/japan.png 800w
+                        "
+                            sizes="(max-width: 390px) 360px, (max-width: 1440px) 800px"
+                        />
+                        <img class="slider_img" src="src/images/slider/japan.png" alt="" />
+                    </picture>
                     <div class="slider__descr-img">Japan</div>
                 </div>
                 <div class="slider__item">
-                    <img
+                    <!-- <img
                         class="slider_img"
-                        srcset="src/images/slider/390px/spain390.png 360w"
-                        sizes="(max-width: 390px)"
+                        sizes="(max-width: 390px) 360px, (max-width: 1440px) 800px"
+                        srcset="
+                        src/images/slider/390px/usa390.png 360w
+                        src/images/slider/usa.png 800w
+                        "
                         src="src/images/slider/usa.png"
                         alt=""
-                    />
+                    /> -->
+                    <picture>
+                        <source
+                            srcset="
+                        src/images/slider/390px/usa390.png 360w
+                        src/images/slider/usa.png 800w
+                        "
+                            sizes="(max-width: 390px) 360px, (max-width: 1440px) 800px"
+                        />
+                        <img class="slider_img" src="src/images/slider/usa.png" alt="" />
+                    </picture>
                     <div class="slider__descr-img">USA</div>
                 </div>
             </div>
