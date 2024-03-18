@@ -477,4 +477,17 @@ button {
         height: 30px;
         padding: 7.5px 10px;
     }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer__content {
+        display: flex;
+        justify-content: center;        
+    }
+
+    .footer__text {
+        display: none;
+    }
 }
