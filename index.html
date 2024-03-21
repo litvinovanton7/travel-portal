@@ -19,7 +19,7 @@
             rel="stylesheet"
         />
     </head>
-    <body>
+    <section>
         <section class="section__header">
             <header class="header">
                 <div class="container">
@@ -34,22 +34,22 @@
                         <nav class="header__menu">
                             <ul class="menu__list">
                                 <li class="menu__item">
-                                    <a class="menu__link" href="#"
+                                    <a class="menu__link" href="#preview"
                                         >How It Works
                                     </a>
                                 </li>
                                 <li class="menu__item">
-                                    <a class="menu__link" href="#">
+                                    <a class="menu__link" href="#step">
                                         Plan Your Trip</a
                                     >
                                 </li>
                                 <li class="menu__item">
-                                    <a class="menu__link" href="#">
+                                    <a class="menu__link" href="#destanation">
                                         Destinations</a
                                     >
                                 </li>
                                 <li class="menu__item">
-                                    <a class="menu__link" href="#">
+                                    <a class="menu__link" href="#stories">
                                         Travel Stories</a
                                     >
                                 </li>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </header>
-            <section class="preview">
+            <section id="preview">
                 <div class="container">
                     <div class="preview__content-wrapper">
                         <div class="preview__text">
@@ -89,7 +89,7 @@
                 </div>
             </section>
         </section>
-        <section class="step">
+        <section id="step">
             <div class="container">
                 <h2 class="step__title section__title">
                     3 STEPS TO THE PERFECT TRIP
@@ -128,7 +128,7 @@
                 </div>
             </div>
         </section>
-        <section class="destanation">
+        <section id="destanation">
             <div class="container">
                 <h2 class="destanation__title section__title">
                     POPULAR DESTINATIONS
@@ -156,7 +156,7 @@
                             srcset="src/images/slider/spain.png"
                         />
                         <img
-                            class="slider__item"
+                            class="slider__img"
                             src="src/images/slider/spain.png"
                             alt=""
                         />
@@ -174,7 +174,7 @@
                         src="src/images/slider/japan.png"
                         alt=""
                     /> -->
-                    <picture class="picture-wrapper">
+                    g<picture class="picture-wrapper">
                         <source
                             media="(max-width: 390px)"
                             srcset="src/images/slider/390px/japan390.png"
@@ -184,7 +184,7 @@
                             srcset="src/images/slider/japan.png"
                         />
                         <img
-                            class="slider__item"
+                            class="slider__img"
                             src="src/images/slider/japan.png"
                             alt=""
                         />
@@ -212,7 +212,7 @@
                             srcset="src/images/slider/usa.png"
                         />
                         <img
-                            class="slider__item"
+                            class="slider__img"
                             src="src/images/slider/usa.png"
                             alt=""
                         />
@@ -233,11 +233,12 @@
                 </div>
             </div>
         </section>
-        <div class="container">
-            <h2 class="stories__title section__title">TRAVEL STORIES</h2>
-        </div>
-        <section class="background__footer-stories">
-            <section class="stories">
+
+        <section id="stories">
+            <div class="container">
+                <h2 class="stories__title section__title">TRAVEL STORIES</h2>
+            </div>
+            <section class="background__footer-stories">
                 <div class="stories__content-wrapper">
                     <div class="container">
                         <div class="stories__content-item">
@@ -361,7 +362,6 @@
                         </div>
                     </div>
                 </div>
-            </section>
             <footer class="footer">
                 <div class="container">
                     <div class="footer__content">
@@ -388,7 +388,9 @@
                     </div>
                 </div>
             </footer>
+            </section>
         </section>
+
         <script src="src/js/main.js"></script>
     </body>
 </html>
