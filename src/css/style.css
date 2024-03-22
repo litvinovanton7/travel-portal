@@ -99,6 +99,8 @@ button {
 .preview__content-wrapper {
     padding: 2px 0;
     width: 892px;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 .preview__title {
