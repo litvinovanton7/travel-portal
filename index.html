@@ -1,45 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Travel Portal</title>
-        <link rel="stylesheet" href="src/css/style.css" />
-        <link rel="stylesheet" href="src/css/normalize.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
-            rel="stylesheet"
-        />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap"
-            rel="stylesheet"
-        />
-    </head>
-    <section>
-        <section class="section__header">
-            <header class="header">
-                <div class="container">
-                    <div class="header__content-menu">
-                        <a class="header_logo" href="#">
-                            <img
-                                class="logo"
-                                src="src/images/logo.svg"
-                                alt="travel portal"
-                            />
-                        </a>
-                        <nav class="header__menu">
-                            <ul class="menu__list">
-                                <li class="menu__item">
-                                    <a class="menu__link" href="#preview"
-                                        >How It Works
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Portal</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="src/css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+</head>
+<section>
+    <section class="section__header">
+        <header class="header">
+            <div class="container">
+                <div class="header__content-menu">
+                    <a class="header_logo" href="#">
+                        <img class="logo" src="src/images/logo.svg" alt="travel portal" />
+                    </a>
+                    <nav class="header__menu">
+                        <ul class="menu__list">
+                            <li class="menu__item">
+                                <a class="menu__link" href="#preview">How It Works
                                     </a>
-                                </li>
-                                <li class="menu__item">
-                                    <a class="menu__link" href="#step">
+                            </li>
+                            <li class="menu__item">
+                                <a class="menu__link" href="#step">
                                         Plan Your Trip</a
                                     >
                                 </li>
@@ -96,31 +86,58 @@
                 </h2>
                 <div class="step__wrapper">
                     <div class="item__wrapper">
-                        <img
+                        <picture>
+                            <source
+                            media="(max-width: 390px)"
+                            srcset="src/images/steps_img/390px/bicycle.svg"
+                            >
+                            <source
+                            srcset="src/images/steps_img/bicycle.svg"
+                            >
+                            <img
                             class="step__img"
                             src="src/images/steps_img/bicycle.svg"
                             alt="bicycle"
-                        />
+                            />
+                        </picture>
                         <p class="step__item-descr">
                             Tell us what you want to do
                         </p>
                     </div>
                     <div class="item__wrapper">
-                        <img
+                        <picture>
+                            <source
+                            media="(max-width: 390px)"
+                            srcset="src/images/steps_img/390px/calendar.svg"
+                            >
+                            <source
+                            srcset="src/images/steps_img/calendar.svg"
+                            >
+                            <img
                             class="step__img"
                             src="src/images/steps_img/calendar.svg"
-                            alt="calendar"
-                        />
+                            alt="bicycle"
+                            />
+                        </picture>
                         <p class="step__item-descr">
                             Share us preferable dates
                         </p>
                     </div>
                     <div class="item__wrapper">
-                        <img
+                        <picture>
+                            <source
+                            media="(max-width: 390px)"
+                            srcset="src/images/steps_img/390px/airplane.svg"
+                            >
+                            <source
+                            srcset="src/images/steps_img/airplane.svg"
+                            >
+                            <img
                             class="step__img"
                             src="src/images/steps_img/airplane.svg"
-                            alt="airplane"
-                        />
+                            alt="bicycle"
+                            />
+                        </picture>
                         <p class="step__item-descr">
                             We will give you recommendations
                         </p>
@@ -136,23 +153,12 @@
             </div>
             <div class="slider__wrapper">
                 <div class="slider__item">
-                    <!-- <img
-                        class="slider_img"
-                        sizes="(max-width: 390px) 360px, (max-width: 1440px) 800px"
-                        srcset="
-                            src/images/slider/390px/spain390.png 360w,
-                            src/images/slider/spain.png          800w
-                        "
-                        src="src/images/slider/spain.png"
-                        alt=""
-                    /> -->
                     <picture class="picture-wrapper">
                         <source
                             media="(max-width: 390px)"
                             srcset="src/images/slider/390px/spain390.png"
                         />
                         <source
-                            media="(max-width: 1440px)"
                             srcset="src/images/slider/spain.png"
                         />
                         <img
@@ -164,23 +170,12 @@
                     <div class="slider__descr-img">Spain</div>
                 </div>
                 <div>
-                    <!-- <img
-                        class="slider_img"
-                        sizes="(max-width: 390px) 360px, (max-width: 1440px) 800px"
-                        srcset="
-                            src/images/slider/390px/japan390.png 360w,
-                            src/images/slider/japan.png          800w
-                        "
-                        src="src/images/slider/japan.png"
-                        alt=""
-                    /> -->
-                    g<picture class="picture-wrapper">
+                    <picture class="picture-wrapper">
                         <source
                             media="(max-width: 390px)"
                             srcset="src/images/slider/390px/japan390.png"
                         />
                         <source
-                            media="(max-width: 1440px)"
                             srcset="src/images/slider/japan.png"
                         />
                         <img
@@ -192,23 +187,12 @@
                     <div class="slider__descr-img">Japan</div>
                 </div>
                 <div class="slider__item">
-                    <!-- <img
-                        class="slider_img"
-                        sizes="(max-width: 390px) 360px, (max-width: 1440px) 800px"
-                        srcset="
-                            src/images/slider/390px/usa390.png 360w,
-                            src/images/slider/usa.png          800w
-                        "
-                        src="src/images/slider/usa.png"
-                        alt=""
-                    /> -->
                     <picture class="picture-wrapper">
                         <source
                             media="(max-width: 390px)"
                             srcset="src/images/slider/390px/usa390.png"
                         />
                         <source
-                            media="(max-width: 1440px)"
                             srcset="src/images/slider/usa.png"
                         />
                         <img
@@ -233,7 +217,6 @@
                 </div>
             </div>
         </section>
-
         <section id="stories">
             <div class="container">
                 <h2 class="stories__title section__title">TRAVEL STORIES</h2>

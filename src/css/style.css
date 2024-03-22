@@ -191,10 +191,10 @@ button {
 }
 
 .slider__item {
-    position: relative;
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
+    position: relative;
 }
 
 .picture-wrapper {
@@ -202,6 +202,7 @@ button {
 
 .slider__img {
     border-radius: 16px;
+    z-index: -1;
 }
 
 .slider__descr-img {
@@ -209,11 +210,13 @@ button {
     font-weight: 500;
     font-size: 32px;
     position: absolute;
-    bottom: 0;
-    left: 0;
+    left: 10px;
+    bottom: 10px;
+    display: flex;
     color: #fff;
     padding-bottom: 40px;
     padding-left: 60px;
+    z-index: 1;
 }
 
 .slider__switch-wrapper {
@@ -435,12 +438,24 @@ button {
         font-size: 10px;
     }
 
+    .slider__wrapper {
+    }
+
     .slider_img {
         height: 210px;
+
     }
 
     .slider__item {
+        position: relative;
         right: 0;
+    }
+
+    .slider__descr-img {
+        position: absolute;
+        bottom: -90px;
+        left: -30px;
+        font-size: 20px;
     }
 
     .destanation__btn-wrapper {
