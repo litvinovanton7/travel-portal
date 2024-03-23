@@ -1,3 +1,5 @@
+"use strict";
+
 document.addEventListener("DOMContentLoaded", () => {
     const habmurger = document.querySelector(".hamburger__menu");
     const headerMenu = document.querySelector(".header__menu");

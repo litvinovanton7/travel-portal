@@ -185,6 +185,11 @@ button {
 }
 
 /* slider in destanation section*/
+
+.arrow {
+    display: none;
+}
+
 .slider__wrapper {
     display: flex;
     justify-content: center;
@@ -199,26 +204,22 @@ button {
     position: relative;
 }
 
-.picture-wrapper {
-}
-
 .slider__img {
     border-radius: 16px;
     z-index: -1;
 }
 
 .slider__descr-img {
+    position: absolute;
+    z-index: 1;
     font-family: "Red Hat Text", sans-serif;
     font-weight: 500;
     font-size: 32px;
-    position: absolute;
     left: 10px;
     bottom: 10px;
-    display: flex;
     color: #fff;
     padding-bottom: 40px;
     padding-left: 60px;
-    z-index: 2;
 }
 
 .slider__switch-wrapper {
@@ -431,6 +432,11 @@ button {
         margin-bottom: 20px;
     }
 
+    .step__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .step__img {
         padding: 19px;
     }
@@ -441,10 +447,20 @@ button {
     }
 
     .slider__wrapper {
+        position: relative;
     }
 
-    .slider_img {
-        height: 210px;
+    .arrow {
+        position: absolute;
+        top: 50%;
+    }
+
+    .left {
+        left: -20%;
+    }
+
+    .right {
+        right: -20%;
     }
 
     .slider__item {
@@ -452,11 +468,16 @@ button {
         right: 0;
     }
 
+    .slider_img {
+        z-index: -2;
+    }
+
     .slider__descr-img {
         position: absolute;
         bottom: -90px;
         left: -30px;
         font-size: 20px;
+        z-index: 2;
     }
 
     .destanation__btn-wrapper {
