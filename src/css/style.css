@@ -445,43 +445,38 @@ button {
         font-size: 10px;
     }
 
-    .slider__wrapper {
-        position: relative;
-    }
-
-    .arrow {
-        position: absolute;
-        top: 50%;
-    }
-
-    .left {
-        left: -20%;
-    }
-
-    .right {
-        right: -20%;
+    .destanation__btn-wrapper {
+        margin-bottom: 20px;
     }
 
     .slider__wrapper {
         margin: 0 auto;
         max-width: 360px;
+        position: relative;
     }
 
     .slider__item {
         padding: 0;
     }
 
-    .slider_img {
-    }
-
     .slider__descr-img {
-                transform: translate(-50%, 0);
+        transform: translate(-50%, 0);
         top: 8px;
         font-size: 20px;
     }
 
-    .destanation__btn-wrapper {
-        margin-bottom: 20px;
+    .arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .left-arrow {
+        left: 20px;
+    }
+
+    .right-arrow {
+        right: 20px;
     }
 
     .stories__img {
