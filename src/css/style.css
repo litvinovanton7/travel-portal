@@ -198,9 +198,8 @@ button {
 }
 
 .slider__item {
-    display: flex;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 5 0px;
     position: relative;
 }
 
@@ -463,21 +462,22 @@ button {
         right: -20%;
     }
 
+    .slider__wrapper {
+        margin: 0 auto;
+        max-width: 360px;
+    }
+
     .slider__item {
-        position: relative;
-        right: 0;
+        padding: 0;
     }
 
     .slider_img {
-        z-index: -2;
     }
 
     .slider__descr-img {
-        position: absolute;
-        bottom: -90px;
-        left: -30px;
+                transform: translate(-50%, 0);
+        top: 8px;
         font-size: 20px;
-        z-index: 2;
     }
 
     .destanation__btn-wrapper {
