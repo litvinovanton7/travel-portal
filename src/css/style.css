@@ -167,7 +167,7 @@ button {
     align-items: center;
 }
 
-.item__wrapper {
+.step__item-wrapper {
     padding-top: 40px;
     text-align: center;
 }
@@ -275,6 +275,8 @@ button {
 }
 
 .stories__img {
+    border-radius: 16px;
+    filter: drop-shadow(0px 4px 4px #0d606f);
     border-radius: 16px;
 }
 
@@ -442,6 +444,8 @@ button {
     .step__item-descr {
         align-items: center;
         font-size: 10px;
+        width: 100px;
+        text-align: left;
     }
 
     .destanation__btn-wrapper {
@@ -496,9 +500,7 @@ button {
     }
 
     .stories__content-text {
-        width: 192px;
-        height: 102px;
-        margin-bottom: 15px;
+        max-width: 192px;
     }
 
     .stories__title-descr {
@@ -508,7 +510,10 @@ button {
 
     .stories__descr {
         font-size: 9px;
-        text-overflow: ellipsis;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 8;
+        -webkit-box-orient: vertical;
     }
 
     .stories__btn {
