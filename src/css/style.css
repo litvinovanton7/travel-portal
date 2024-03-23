@@ -190,7 +190,7 @@ button {
     display: none;
 }
 
-.slider__wrapper {
+.slider {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,7 +234,6 @@ button {
     width: 20px;
     height: 20px;
     background-color: #f2785c;
-    opacity: 50%;
 }
 
 .switch__slide:active {
@@ -465,18 +464,30 @@ button {
         font-size: 20px;
     }
 
+    .slider__switch-wrapper {
+        position: absolute;
+        bottom: 15px;
+        left: 44%;
+    }
+
+    .switch__slide {
+        width: 8px;
+        height: 8px;
+    }
+
     .arrow {
         position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+        top: 40%;
+        display: flex;
+        justify-content: space-between;
     }
 
     .left-arrow {
-        left: 20px;
+        left: 11px;
     }
 
     .right-arrow {
-        right: 20px;
+        right: 11px;
     }
 
     .stories__img {
